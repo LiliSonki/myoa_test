@@ -1,15 +1,7 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    
-}
-body {
-    height:auto !important; 
-    height:100%; 
-    max-width: 1000px;
-    min-height:700px;
-    position: relative;
-    margin:0 auto;
-    background-color: #44b29d;
+    text-align: center;
+    background-color: #368C7C;
 }
 p {
     color: black;
@@ -25,7 +17,7 @@ p {
     font-size: 18px;
     text-align: center;
     color: white;
-    background-color: #368f7e;
+    background-color: #368C7C;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -40,7 +32,20 @@ h1 {
 button {
     text-transform: uppercase;
     text-align: center;
-    background-color: #368f7e;
+    background-color: #368C7C;
     padding: 5px 15px 5px 15px;
 }
-/* This is a comment */
+/* List stile */
+ul {
+   list-style-type: none;
+   line-height: 35px;
+}
+.hour-degree {
+    font-weight: bold;
+    padding: 0 15px 0 15px;
+}
+.humidity {
+    font-weight: bold;
+    padding: 0 15px 0 15px;
+}
+
